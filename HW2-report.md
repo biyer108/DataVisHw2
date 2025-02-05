@@ -1,17 +1,30 @@
-# HW 1 - CS 625, Spring 2025
+# HW 2 - CS 625, Spring 2025
 
-Insert Your Name Here  
-Due: January 26, 2025
+Name: Bhargav Iyer 
+Due: February 4, 2025
 
-## Git, GitHub
+## Data Cleaning
+1) I first worked with removing Blank Rows within the file.
+2) Then removed the Gross Column.
+3) Finally, I trimmed the Movie titles so that leading and subsequent spaces would be removed.
 
-*What is the URL of the GitHub repo that you created in your personal account?*
-   
-*What is pull vs clone in GitHub?*
-   
-*You have committed a change on your local machine/remote. However, you want to undo the changes committed. How would you do that?*
+## Analyzed Clean Data
 
-## Markdown
+1) There are 81 rows that are movies that were superhits in 2021.  I first added a text filter for 2021 for both the startYear and EndYear.  I then applied another text filter for Verdict to check for Super Hit
+
+2) - Animation: She-Ra and the Princesses of Power
+   - Action: She-Ra and the Princesses of Power
+   - Adventure: She-Ra and the Princesses of Power
+   - Comedy: The Midnight Gospel
+   - Drama: The Dragon Prince
+   - Fantasy: Paranormal
+   - Horror: Paranormal
+   - Talk-Show: "Stranger Things: Spotlight"
+   - Short: Mighty Little Bheem
+   - Documentary: "Formula 1: Drive to Survive"
+   - Sport: "Formula 1: Drive to Survive"
+   - Family: Julie and the Phantoms
+   - 
 
 *Create a bulleted list with at least 3 items*
 
