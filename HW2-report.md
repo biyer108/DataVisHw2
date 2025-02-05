@@ -12,63 +12,44 @@ Due: February 4, 2025
 
 1) There are 81 rows that are movies that were superhits in 2021.  I first added a text filter for 2021 for both the startYear and EndYear.  I then applied another text filter for Verdict to check for Super Hit
 
-2) - Animation: She-Ra and the Princesses of Power
+2) I did two sorts, the first one was on the ratings and the second was the start year.I then added a text filter for Genre and checked each genre for the highest rated movie for the required years between 2018-2020.
+   - Animation: She-Ra and the Princesses of Power
    - Action: She-Ra and the Princesses of Power
    - Adventure: She-Ra and the Princesses of Power
+   - Biography: The Last Dance
    - Comedy: The Midnight Gospel
+   - Crime: Elite
    - Drama: The Dragon Prince
+   - Family: Julie and the Phantoms
    - Fantasy: Paranormal
    - Horror: Paranormal
-   - Talk-Show: "Stranger Things: Spotlight"
-   - Short: Mighty Little Bheem
-   - Documentary: "Formula 1: Drive to Survive"
+   - Mystery: The A List
+   - Sci-Fi: Snowpiercer
    - Sport: "Formula 1: Drive to Survive"
-   - Family: Julie and the Phantoms
-   - 
+   - Thriller: Elite
+   - War: Greatest Events of WWII in Colour
+   - History: The Last Dance
+   - Romance: Velhas Amigas
+   - Western: (None within timeframe)
+   - Reality-TV: Queer Eye
+   - Animation: She-Ra and the Princesses of Power
+   - Musical: Go! Vive a Tu Manera
+   - Short: Mighty Little Bheem
+   - Music: Thythm + Flow
+   - News: Patriot Act with Hasan Minhaj
+   - Documentary: "Formula 1: Drive to Survive"
+   - Talk-Show: "Stranger Things: Spotlight"
+   - Film-Noir: (None within timeframe)
+   - Game-Show: The Circle
 
-*Create a bulleted list with at least 3 items*
+3) sdf
 
-*Write a single paragraph that demonstrates the use of italics, bold, bold italics, code, and includes a link. The paragraph must explain your favorite Olympic sport/game, the country that won the most number of olympic GOLD medals (Summer) in your favorite sport in 2020 (Japan) and 2024 (France). You are free to include more information.*
+4) Stars: Song Chae-Yoon, Ga-rim Han, SeolaGoedam - 694 votes - Genre: Short, Horror, Mystery.  I had found this by sorting using Run-Time from smallest to largest.  I then found the movies that are 10 minutes long and found information regarding those movies.
 
-*Create a level 3 heading*
+5) I removed a comma from Votes and then changed it into a numerical column.  I then sorted the column based on votes.  I then added a text filter on Verdict to filter for Flop.
+- Death Note
+- The Human Centipede (First Sequence)
+- Scary Movie 5
+- 365 dni
+- Sharknado
 
-*Insert a image of your favorite Olympics sport/game, sized appropriately*
-
-## Tableau
-
-*Insert the image of your horizontal bar chart here. Reminder, this should show countries that won the least number of medals only (excluding ZERO) in Paris2024 Summer Olynpics by continent (one country from each continent is ok).*
-
-## Google Colab
-
-*What is the URL of your Google Colab notebook?*
-
-## Python/Seaborn
-
-*Insert the first penguin chart here*
-
-*Describe what the figure is showing.*
-
-*Insert the second penguin chart here*
-
-*Describe what the figure is showing.*
-
-*What happened when you removed the outer parentheses from the code? Why?*
-
-## Observable and Vega-Lite
-
-*What happens when you replace `markCircle()` with `markSquare()`?*
-
-*What happens when you replace `markCircle()` with `markPoint()`?*
-
-*What change do you need to make to swap the x and y axes on the scatterplot?*
-
-*Insert the bar chart image here*
-
-*Why do you think this chart is the result of this code change?*
-
-## References
-
-*Every report must list the references (including the URL) that you consulted while completing the assignment. Replace the items below with the references you consulted*
-
-* Reference 1, <https://www.example.com>
-* Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
