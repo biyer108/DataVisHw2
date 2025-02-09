@@ -7,6 +7,12 @@ Due: February 4, 2025
 1) I first worked with removing Blank Rows within the file.
 2) Then removed the Gross Column.
 3) Finally, I trimmed the Movie titles so that leading and subsequent spaces would be removed.
+4) Next I filled all the blank values with N/A for the text type columns.  I went through a text facet and replaced blank or " " with N/A.
+5) I changed Run Time and Rating to numerical values and replaced blanks with 0s.
+6) I then edited votes by removing the commas from it and then converting it into a numerical value. I then replaced the blanks with 0s.
+7) For the second step of data cleaning, I added a bunch of text filters to stop those specific values (Roman Numerals) from appearing in the list.
+8) I then applied a text facet to first remove the parenthesis, then remove any strings after a space.  After that I added a dash and the same year after any data that has only 1 year.  After all this, I split the data into 2. with the dash as the delimiter for startyear and end year.
+9) For the third task, I created a new column based off of the Rating column.  I used a bunch of if statements to determin whether it was a super hit, hit, average, flop, or not known.
 
 ## Analyzed Clean Data
 
@@ -42,11 +48,14 @@ Due: February 4, 2025
    - Film-Noir: (None within timeframe)
    - Game-Show: The Circle
 
-3) sdf
+3) Most common genres in database by count.  I found these by creating text facet by genre and sorted the facet by count to find most common genre.  I then sorted the data by votes.
+   - Comedy - Lugar de Mujer - 16 votes
+   - Animation, Action, Adventure - 3Below: Tales of Arcadia - 5 votes
+   - Drama - Kacche Dhaagey - 5 votes
 
-4) Stars: Song Chae-Yoon, Ga-rim Han, SeolaGoedam - 694 votes - Genre: Short, Horror, Mystery.  I had found this by sorting using Run-Time from smallest to largest.  I then found the movies that are 10 minutes long and found information regarding those movies.
+5) Stars: Song Chae-Yoon, Ga-rim Han, SeolaGoedam - 694 votes - Genre: Short, Horror, Mystery.  I had found this by sorting using Run-Time from smallest to largest.  I then found the movies that are 10 minutes long and found information regarding those movies.
 
-5) I removed a comma from Votes and then changed it into a numerical column.  I then sorted the column based on votes.  I then added a text filter on Verdict to filter for Flop.
+6) I removed a comma from Votes and then changed it into a numerical column.  I then sorted the column based on votes.  I then added a text filter on Verdict to filter for Flop.
 - Death Note
 - The Human Centipede (First Sequence)
 - Scary Movie 5
